@@ -3,7 +3,7 @@
 
 
 ## Usage
-There are three different files for the three different segments of robot movement. Each file has the necesary fucntions to extract data from the csv file and create the appropriate graphs.
+There are three different files for the three different segments of robot movement. Each file has the necesary fucntions to extract data from the csv file and create the appropriate graphs. The graphs will automatically save to the directory where you run your graphs. (Disclaimer: this save something crops the graph title and it is necesary to save the extended graph manually)
 
 ### Boathouse to Buoy
 The final fucntion in the file named `draw_four_graphs()` will produce four graphs: 
