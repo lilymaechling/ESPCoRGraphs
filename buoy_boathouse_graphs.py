@@ -24,6 +24,7 @@ def get_data(col_num, start, stop, csvfn):
     return graph_data
 
 
+
 def draw_graph_depth_temp(csv, date, start, stop, trange, depthl, temp):
     # line 1 points
     y1 = get_data(temp, start, stop, csv)
